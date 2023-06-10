@@ -1,38 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  font-family: Montserrat;
+  margin: 5%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.AppBody {
+  margin: 0;
+  padding: 0;
+}
+p{
+  font-family: Montserrat;
+  margin:0; padding:0;
+}
+.Introduction {
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+}
+.Row {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Row-start {
+  display:flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.main-title {
+  padding-left:15px;
+  letter-spacing: 3px;
+  color: #2D6A4F;
+}
+
+.secondary-title {
+  padding-left:15px;
+  letter-spacing: 2px;
+}
+
+.Self-description {
+  margin-top:7px;
+  margin-bottom:15px;
+  font-weight: 400;
+  width: 80%;
+}
+
+
+.font-small-small {
+  font-size: 15px;  
+}
+
+.font-small {
+  font-size: 22px;
+}
+
+.font-medium-small {
+  font-size: 25px;
+}
+
+.font-medium {
+  font-size: 30px;
+}
+
+.font-large {
+  font-size: 52px;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.Skill {
+  width:50%;
+}
+
+.Language {
+  width:50%;
+}
+
+#personalImage {
+  width: 75px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#circle {
+  width: 5px;
+  height: 5px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: #2D6A4F;
+  align-items: center;
+  justify-content: center;
+  margin:auto 1% auto 0;
+}
+
+.Description {
+  display:flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.Section {
+  margin-top: 10px;
+}
+
+.section-point {
+  margin-bottom: 4px;
+}
+
+.date {
+  font-weight: 510;
+}
+
+.title{
+  font-weight: 510;
+}
+
+.Skill-section {
+  width: 50%;
 }
