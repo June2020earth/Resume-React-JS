@@ -8,7 +8,7 @@ function App() {
       <div class="AppBody">
         <div class="Introduction">
           <div class = "Row">
-            <img src={personalImage} id="personalImage"></img>
+            <img alt="personalImage" src={personalImage} id="personalImage"></img>
             <div>
               <p class="font-large main-title bold">Tai Wen Jun</p>
               <p class="font-medium secondary-title">Software Engineering</p>
